@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.logo{
+    width: 30%;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+header nav {
+   width: 100%;
+    background-color: black;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+header nav a{
+   color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Sarcolenta";
+}
+
+.platillo{
+    width: 80%;
+    height: 35rem;
+    margin: auto;
+    display: grid;
+    box-shadow: -1rem -1rem 0.5rem rgb(160, 160, 160);
+    border-radius: 1rem;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 0.3rem 0.2rem 0.2rem rgb(160, 160, 160);
+}
+.section1{
+    display: grid;
+     grid-template-columns: auto auto auto;
+     grid-gap: 1rem;
+     width: 80%;
+}
+
+.section1 nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 15rem;
+    margin: 2rem auto 2rem 0rem;
+    clear: both;
+    background-color: rgb(143, 200, 0);
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.section1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.section1 p{
+    padding: 1rem;
+    width: 70%;
+    margin: auto;
+}
+
+.section2{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.section2 p{
+    padding: 1rem;
+    width: 60%;
+    text-align: center;
+    margin-left: 10rem;
+    font-family: "Sarcolenta";
+}
+
+.section2 img{
+    box-shadow: -1rem -0.5rem 0.5rem rgb(160, 160, 160);
+    border-radius: 1rem;
+}
+
+.section3{
+    display: grid;
+    grid-template-columns: auto auto ;
+    width: 80%;
+}
+
+.section3 img{
+    box-shadow: -1rem -0.5rem 0.5rem rgb(160, 160, 160);
+    border-radius: 1rem;
+    margin-left: 4rem;
+}
+
+.sect3{
+    width: 80%;
+    margin-left: 4rem;
+}
+
+
+
+.contacto{
+   background-color: gray;
+   border: solid 5px gray;
+   width: 80%;
+   margin: auto;
+   padding: 15px;
+   display: grid;
+   grid-template-columns: auto auto auto;
+}
+
+
+.contacto h1{
+   color: white;
+   padding: 1rem;
+}
+
+.linea1{
+    width: 30%;
+}
+
+.linea2{
+   background: white;
+   height: 5px;
+   width: 70%;
+   margin: auto;
+   margin-bottom: 1rem;
+}
+
+
+.formulario{
+   display: flex;
+   flex-direction: column;
+}
+
+
+.formulario > *{
+   margin: 1rem 0rem 0rem 0rem;
+   padding: 1.5rem;
+   border-radius: 1rem;
+}
+
+footer {
+display: grid;
+grid-template-columns: auto auto auto auto;
+text-align: center;
+background-color: rgb(156, 196, 27);
+margin-top: 2rem;
+}
+
+footer h3{
+    padding: 2rem;
+}
+
+footer p{
+    padding: 2rem;
+    font-family: "Sarcolenta";
+}
+
+@font-face {
+    font-family: "Sarcolenta";
+    src: url(./Sarcolenta.ttf);
+}
